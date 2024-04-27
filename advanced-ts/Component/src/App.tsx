@@ -1,13 +1,11 @@
 import Input from "./components/Input";
 import Button from "./components/Button";
+import Container from "./components/Container";
 function App() {
   return (
     <main>
       <p>
-        <Button >A button</Button>
-      </p>
-      <p>
-        <Button href="/">A link</Button>
+        <Container as={Button}> Click me</Container>
       </p>
     </main>
   );
